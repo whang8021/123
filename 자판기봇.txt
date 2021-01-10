@@ -1,0 +1,42 @@
+cmd에서 노드 설정하는법
+
+npm install discord.js
+npm install cheerio
+npm install request
+npm install sqlite3
+npm install fs
+npm install path
+
+conpig 설정
+  "token": "NzA3MTI1MDY1ODI4OTI1NDgw.XsMu7g.qlk4w6g2aCmAMWpDJYJ4ao5D4to", //토큰
+    "prefix": "!", //접두사
+    "owners": "405714654065721344", //구매자 아이디
+    "reg_ch": "746954101014921299", //가입 로그 채널
+    "acc_ch": "712304087517102151", //충전신청 로그 채널
+    "buy_ch": "712304087517102151", //구매 로그 채널
+    "acc_su_ch": "712304087517102151" //충전성공 로그 채널
+
+토큰은 말 그대로 봇 토큰입니다
+ https://discord.com/ 가셔서 개발자 -> 개발자 포털 -> New Applications 에서
+그리고 좌측에 보면
+뭐 여러가지 있는데 중간에 bot 이라고 있습니다
+bot -> add bot 해주세요
+TOKEN 이라고 적힌 부분 아래에
+COPY 라고 있습니다
+눌러주시고 아까 열었던 파일에서
+토큰 바꿔주시면되요
+
+그리구 owners 에는
+393080172716359681 로 바꿔주세요
+그리고 디스코드 설정가셔서
+디스플레이 -> 개발자모드 켜주세요
+
+그리고 아래 4개에는
+채널을 우클릭하면 채널 아이디 복사하기 라는게 있을겁니다
+자판기 봇 로그를 수집할 채널을 생성해주시고
+그 채널 아이디를 복사하셔서 저기다가
+복붙하시면됩니다
+아까 봇 토큰 받은 사이트 가셔서 다시 왼쪽에보면 OAuth2 라는 항목이
+있을겁니다
+거기 오른쪽보면 체크박스들이 있는데
+bot 체크 후 아래에 administrator 체크해주시고
